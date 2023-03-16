@@ -1,0 +1,36 @@
+.c-flyout--usps,
+.c-flyout--usps_body {
+  display: flex;
+  flex-direction: column;
+}
+
+.c-flyout--usps_header {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 26px;
+  margin-bottom: 16px;
+}
+
+.c-flyout--usps_body-usp {
+  display: flex;
+  position: relative;
+}
+
+.c-flyout--usps_body-usp svg {
+  margin-right: 10px;
+}
+
+.c-flyout--usps_body-usp-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.c--arrow {
+  margin: 0;
+  position: relative;
+  left: 100%;
+  display: none;
+}
